@@ -363,6 +363,7 @@ PRODUCT_PACKAGES += \
     libwpa_client \
     hostapd \
     wifilogd \
+    libqmiservices_shim \
     libwifi-hal-qcom \
     wpa_supplicant \
     wpa_supplicant.conf
