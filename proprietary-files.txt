@@ -47,13 +47,13 @@ vendor/lib64/libaudioalsa.so|af924f5a37d3066a97175f1343ea5c9484689ee3
 vendor/lib64/libqtigef.so|e7f0dfa3cd7252310c9a01f2bc0e4074e6e78871
 
 # Audio ACDB
-etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb:vendor/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb
-etc/acdbdata/QRD/QRD_General_cal.acdb:vendor/etc/acdbdata/QRD/QRD_General_cal.acdb
-etc/acdbdata/QRD/QRD_Global_cal.acdb:vendor/etc/acdbdata/QRD/QRD_Global_cal.acdb
-etc/acdbdata/QRD/QRD_Handset_cal.acdb:vendor/etc/acdbdata/QRD/QRD_Handset_cal.acdb
-etc/acdbdata/QRD/QRD_Hdmi_cal.acdb:vendor/etc/acdbdata/QRD/QRD_Hdmi_cal.acdb
-etc/acdbdata/QRD/QRD_Headset_cal.acdb:vendor/etc/acdbdata/QRD/QRD_Headset_cal.acdb
-etc/acdbdata/QRD/QRD_Speaker_cal.acdb:vendor/etc/acdbdata/QRD/QRD_Speaker_cal.acdb
+etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb:vendor/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb|0364848ae2eb5505bdace46d6b8f1391a39095a8
+etc/acdbdata/QRD/QRD_General_cal.acdb:vendor/etc/acdbdata/QRD/QRD_General_cal.acdb|af85e877379f5844d8a87dac8187b1416fd89342
+etc/acdbdata/QRD/QRD_Global_cal.acdb:vendor/etc/acdbdata/QRD/QRD_Global_cal.acdb|0ae1d3c0dfd9c27afd030584b233d2f4b454a743
+etc/acdbdata/QRD/QRD_Handset_cal.acdb:vendor/etc/acdbdata/QRD/QRD_Handset_cal.acdb|855422d5b156ed60f5f6bacb9458e85f6c67ed12
+etc/acdbdata/QRD/QRD_Hdmi_cal.acdb:vendor/etc/acdbdata/QRD/QRD_Hdmi_cal.acdb|457bd7d412d9359297b9923cee264214d013547a
+etc/acdbdata/QRD/QRD_Headset_cal.acdb:vendor/etc/acdbdata/QRD/QRD_Headset_cal.acdb|ba8ab21912dd9a8c41014f6c26f2dca6d4476fdf
+etc/acdbdata/QRD/QRD_Speaker_cal.acdb:vendor/etc/acdbdata/QRD/QRD_Speaker_cal.acdb|b1a9a1497d1ecfab01e8a59d4c33410d409753a3
 
 # Bluetooth - from LA.UM.8.6.r1-04000-89xx.0
 -lib/libbtconfigstore.so|b631dd3c97fc138807ba872242087a910b13e565
@@ -65,20 +65,20 @@ vendor/lib64/libbtnv.so|143ba8a42154a26469b87243ae3e1cd5e9565b13
 vendor/lib64/libbt-hidlclient.so|4682c8711fe78bb73448b34c30181948989400bf
 
 # Bluetooth (Audio) - from LA.UM.8.6.r1-04000-89xx.0
-vendor/lib64/hw/audio.bluetooth_qti.default.so|a17474dec03b704cc9741c85f2f6aef62c5ad71e 
-vendor/lib64/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so|a1a86ead8177ac54dfdab729b9adf06af1d4a747 
-vendor/lib64/hw/vendor.qti.hardware.bluetooth_sar@1.0-impl.so|4e188cd7cc009ced6af7901f357005623dd0875a 
-vendor/lib64/hw/vendor.qti.hardware.btconfigstore@1.0-impl.so|df20addad1f9c1c8b342aeee1ff9a5fbc5cf8bb8 
-vendor/lib64/libbluetooth_audio_session_qti.so|efc32a2a4eaf0cf33b1741b62565b4c6e6495063 
-vendor/lib64/vendor.qti.hardware.bluetooth_audio@2.0.so|8c6895ee0f64c33b829ce28d20de1021bf3e9cca 
-vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so|237a97fc3d3332b1466583178b548dd1525479ef 
-vendor/lib64/vendor.qti.hardware.btconfigstore@1.0.so|5677a85470b88400467410b9a264f56119b30046 
-vendor/lib/hw/audio.bluetooth_qti.default.so|f99c2de8d7e5746ad777a758512b2a364462d59c 
-vendor/lib/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so|9880c5dcd6aca43d3caa7c16a1627a078a36d028 
-vendor/lib/hw/vendor.qti.hardware.bluetooth_sar@1.0-impl.so|688065b7b8902d29a820aab3f5cc5dc584325423 
-vendor/lib/hw/vendor.qti.hardware.btconfigstore@1.0-impl.so|e7efde96f1751fd7308568634380002fa325f4eb 
-vendor/lib/libbluetooth_audio_session_qti.so|a61efd4c1c6a736b3f5c2fd571447fe6bd0423a4 
-vendor/lib/vendor.qti.hardware.bluetooth_audio@2.0.so|2aff95e3eb070334bee674f3706c3790b9c2e2ca 
+vendor/lib64/hw/audio.bluetooth_qti.default.so|a17474dec03b704cc9741c85f2f6aef62c5ad71e
+vendor/lib64/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so|a1a86ead8177ac54dfdab729b9adf06af1d4a747
+vendor/lib64/hw/vendor.qti.hardware.bluetooth_sar@1.0-impl.so|4e188cd7cc009ced6af7901f357005623dd0875a
+vendor/lib64/hw/vendor.qti.hardware.btconfigstore@1.0-impl.so|df20addad1f9c1c8b342aeee1ff9a5fbc5cf8bb8
+vendor/lib64/libbluetooth_audio_session_qti.so|efc32a2a4eaf0cf33b1741b62565b4c6e6495063
+vendor/lib64/vendor.qti.hardware.bluetooth_audio@2.0.so|8c6895ee0f64c33b829ce28d20de1021bf3e9cca
+vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so|237a97fc3d3332b1466583178b548dd1525479ef
+vendor/lib64/vendor.qti.hardware.btconfigstore@1.0.so|5677a85470b88400467410b9a264f56119b30046
+vendor/lib/hw/audio.bluetooth_qti.default.so|f99c2de8d7e5746ad777a758512b2a364462d59c
+vendor/lib/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so|9880c5dcd6aca43d3caa7c16a1627a078a36d028
+vendor/lib/hw/vendor.qti.hardware.bluetooth_sar@1.0-impl.so|688065b7b8902d29a820aab3f5cc5dc584325423
+vendor/lib/hw/vendor.qti.hardware.btconfigstore@1.0-impl.so|e7efde96f1751fd7308568634380002fa325f4eb
+vendor/lib/libbluetooth_audio_session_qti.so|a61efd4c1c6a736b3f5c2fd571447fe6bd0423a4
+vendor/lib/vendor.qti.hardware.bluetooth_audio@2.0.so|2aff95e3eb070334bee674f3706c3790b9c2e2ca
 vendor/lib/vendor.qti.hardware.bluetooth_sar@1.0.so|e2ff653e1a5e9d6379fa1fee6824642c4a615ce4
 vendor/lib/vendor.qti.hardware.btconfigstore@1.0.so|0ff482f72a05eb9e2a4617fe03ae9e737843c885
 
@@ -195,7 +195,7 @@ vendor/lib/libtrueportrait.so|3bf2b5918896172b08cf2e2017c6665a51c1ebc7
 vendor/lib/libubifocus.so|833a305c780b2e7e338323c5ba27cb042f5cc3ed
 
 # Camera - from prada (Redmi 4)
-vendor/lib/libllvd_smore.so|582739377d89d73fca85364f714c4e577a59ea82 
+vendor/lib/libllvd_smore.so|582739377d89d73fca85364f714c4e577a59ea82
 vendor/lib/libllvd_sw_tnr.so|fcdcf57426014ff9d29f394ada26a6fd830dc6e3
 vendor/lib/libmmcamera_sw_tnr.so|6b20dab49ea83f84afed555d9b60595a4c380e16
 
@@ -617,18 +617,18 @@ vendor/etc/init/android.hardware.drm@1.2-service.widevine.rc|75335443a33a06a03ee
 vendor/lib64/libwvhidl.so|4af61fdcf1186700ea7ee23c607fb9ce5fd0f0e8
 
 # Fingerprint - from stock patched
-bin/gx_fpcmd:vendor/bin/gx_fpcmd|490028aae2ebb9f8b6fb176360104945282226dc 
-bin/gx_fpd:vendor/bin/gx_fpd|a4e071d34e46d403a79e8f8fe51d9be051cac9dc 
-lib/hw/fingerprint.default.so:vendor/lib/hw/fingerprint.msm8937.so|f91241d131fab2a4b9272fe8e0825b9bcddb3221 
-lib/libcom_fingerprints_service.so:vendor/lib/libcom_fingerprints_service.so|580b1fc694003651c05961c8b3f8dd4dff698ab9 
-lib64/hw/fingerprint.default.so:vendor/lib64/hw/fingerprint.msm8937.so|5ca617bf4ca6899570491c3725cf40b0896dc6c0 
-lib64/hw/fingerprint.goodix.so:vendor/lib64/hw/fingerprint.goodix.so|c66aa3eafd9dd208fb81529b8d63d8a00e80c2d6 
-lib64/hw/gxfingerprint.default.so:vendor/lib64/hw/gxfingerprint.default.so|63e1a095a6688137573b0b2d3503019497e0bb4b 
-lib64/libcom_fingerprints_service.so:vendor/lib64/libcom_fingerprints_service.so|c9166911d157260b12610a2b2800585e984fbf5a 
-lib64/libfp_client.so:vendor/lib64/libfp_client.so|c74fac2826f1ef76c32f7bb532c21cfd7bc3c852 
-lib64/libfpnav.so:vendor/lib64/libfpnav.so|588301735456b31b09aa0779a7f46481056868dd 
-lib64/libfpservice.so:vendor/lib64/libfpservice.so|7bfd1abd31551833079e6ffe3138fa9faf9e9040 
-vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service.land|cf73241facae5e4a7ad092f2cda0f8e00c2f5bd9 
+bin/gx_fpcmd:vendor/bin/gx_fpcmd|490028aae2ebb9f8b6fb176360104945282226dc
+bin/gx_fpd:vendor/bin/gx_fpd|a4e071d34e46d403a79e8f8fe51d9be051cac9dc
+lib/hw/fingerprint.default.so:vendor/lib/hw/fingerprint.msm8937.so|f91241d131fab2a4b9272fe8e0825b9bcddb3221
+lib/libcom_fingerprints_service.so:vendor/lib/libcom_fingerprints_service.so|580b1fc694003651c05961c8b3f8dd4dff698ab9
+lib64/hw/fingerprint.default.so:vendor/lib64/hw/fingerprint.msm8937.so|5ca617bf4ca6899570491c3725cf40b0896dc6c0
+lib64/hw/fingerprint.goodix.so:vendor/lib64/hw/fingerprint.goodix.so|c66aa3eafd9dd208fb81529b8d63d8a00e80c2d6
+lib64/hw/gxfingerprint.default.so:vendor/lib64/hw/gxfingerprint.default.so|63e1a095a6688137573b0b2d3503019497e0bb4b
+lib64/libcom_fingerprints_service.so:vendor/lib64/libcom_fingerprints_service.so|c9166911d157260b12610a2b2800585e984fbf5a
+lib64/libfp_client.so:vendor/lib64/libfp_client.so|c74fac2826f1ef76c32f7bb532c21cfd7bc3c852
+lib64/libfpnav.so:vendor/lib64/libfpnav.so|588301735456b31b09aa0779a7f46481056868dd
+lib64/libfpservice.so:vendor/lib64/libfpservice.so|7bfd1abd31551833079e6ffe3138fa9faf9e9040
+vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service.land|cf73241facae5e4a7ad092f2cda0f8e00c2f5bd9
 vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.land.rc|db6f25e70a9dcd7d599e2b0fd297f941bb4a61ed
 vendor/lib64/libbindergx.so|eb676b92d13a7835aaab309d5c692151993e016f
 
@@ -833,17 +833,17 @@ vendor/lib/vendor.qti.hardware.perf@2.0.so|71592601eed5e022f4979293d68deb98e688a
 # Perf (configs) - from LA.UM.8.6.r1-04000-89xx.0
 vendor/etc/perf/commonresourceconfigs.xml|42005b8a9ec8a527d22800e3aaa9215e6d58c8a9
 vendor/etc/perf/perfboostsconfig.xml|1c120821b2fe9b3ebf9d00b7bc8c0a374c2918d2
-vendor/etc/perf/perfconfigstore.xml|dfa3a78fd24cba4b870a3cd04d657cc9962c8331
+vendor/etc/perf/perfconfigstore.xml|9a2409bee5f95d7c42b92011ec9d5b06268639d2
 vendor/etc/perf/targetconfig.xml|aa20c25397df1455206965737f82d44d44430e45
 vendor/etc/perf/targetresourceconfigs.xml|d9f9815764725df55e748bf4af4829e609dac853
 
 # Perf (IOP) - from X00RD-10-QKQ1.191002.002-17.07.2003.405-20200330-release-keys
-vendor/lib/hw/vendor.qti.hardware.iop@2.0-impl.so|c16cde136194fd07c75aaadb6be5a0dbd8b315a4 
-vendor/lib/libqti-iopd-client.so|98c1aafb71fc5cf05197831deeb1456572d7cb77 
-vendor/lib/vendor.qti.hardware.iop@1.0.so|f522603e1b741ff8dcf643e8fe9ce407316dfbe4 
-vendor/lib/vendor.qti.hardware.iop@2.0.so|ddd07fb38fa22976e2dc9860fb52c5ce1f1a0bde 
-vendor/lib64/hw/vendor.qti.hardware.iop@2.0-impl.so|5bb2e93e988da810ff12c539996111632542b403 
-vendor/lib64/libqti-iopd-client.so|c7296f02c126f8c7402eae0f79737908901afa36 
+vendor/lib/hw/vendor.qti.hardware.iop@2.0-impl.so|c16cde136194fd07c75aaadb6be5a0dbd8b315a4
+vendor/lib/libqti-iopd-client.so|98c1aafb71fc5cf05197831deeb1456572d7cb77
+vendor/lib/vendor.qti.hardware.iop@1.0.so|f522603e1b741ff8dcf643e8fe9ce407316dfbe4
+vendor/lib/vendor.qti.hardware.iop@2.0.so|ddd07fb38fa22976e2dc9860fb52c5ce1f1a0bde
+vendor/lib64/hw/vendor.qti.hardware.iop@2.0-impl.so|5bb2e93e988da810ff12c539996111632542b403
+vendor/lib64/libqti-iopd-client.so|c7296f02c126f8c7402eae0f79737908901afa36
 vendor/lib64/vendor.qti.hardware.iop@1.0.so|3f738546cbdebf7d7a769568c4c5b43f3d8e2c54
 vendor/lib64/vendor.qti.hardware.iop@2.0.so|f40ce3fe82f85dba57df0185cc42e491da585329
 
