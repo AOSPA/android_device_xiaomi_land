@@ -51,7 +51,7 @@ media.camera.ts.monotonic=1 \
 persist.camera.gyro.disable=1 \
 persist.camera.isp.clock.optmz=0 \
 persist.camera.stats.test=5 \
-persist.vendor.qti.telephony.vt_cam_interface=1 \
+persist.vendor.qti.telephony.vt_cam_interface=2 \
 vidc.enc.dcvs.extra-buff-count=2
 
 # Cne
@@ -195,6 +195,7 @@ persist.dbg.ims_volte_enable=1 \
 ril.subscription.types=NV,RUIM \
 rild.libargs=-d/dev/smd0 \
 rild.libpath=/vendor/lib64/libril-qc-qmi-1.so \
+ro.telephony.iwlan_operation_mode=legacy \
 ro.telephony.call_ring.multiple=false \
 ro.telephony.default_network=22,22 \
 ro.telephony.use_old_mnc_mcc_format=true \
