@@ -44,4 +44,7 @@
 
     <!-- FP Location -->
     <integer name="config_fingerprintSensorLocation">0</integer>
+
+    <!-- Button backlight value ranges from 0 to 255; 0 is considered as Disabled -->
+    <integer name="config_buttonBrightnessSettingDefault">0</integer>
 </resources>
